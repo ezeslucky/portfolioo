@@ -1,0 +1,13 @@
+<svg width="51" height="50" viewBox="0 0 51 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer circle -->
+  <circle cx="25.5" cy="25" r="24" fill="#FF6C37" stroke="black" stroke-width="1.5" />
+  
+  <!-- Inner crescent shape -->
+  <path 
+    d="M35 25C35 30.5228 30.5228 35 25 35C22.8284 35 20.8284 34.2426 19.3431 32.7574C17.8579 31.2722 17.1 29.2722 17.1 27C17.1 22.4772 21.5772 19 25 19C27.1716 19 29.1716 19.7574 30.6569 21.2426C32.1421 22.7278 33 24.7278 33 27Z" 
+    fill="white"
+  />
+  
+  <!-- Small logo circle -->
+  <circle cx="25.5" cy="25" r="6" fill="#FFF" />
+</svg>
