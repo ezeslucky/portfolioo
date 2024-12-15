@@ -110,7 +110,7 @@ export const skills = [
     },
     {
         imageUrl: kubernetes,
-        name: "Docker",
+        name: "Kubernetes",
         type: "Infrastructure",
         
     },
