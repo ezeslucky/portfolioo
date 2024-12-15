@@ -32,7 +32,12 @@ import arrow from './arrow.svg'
 import contact from './contact.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
-
+import code from './code.svg'
+import chart from './chart.png'
+import head  from './head.png'
+import thunder from './thunder.svg'
+import chess from  './chess.jpg'
+import message from './message.svg'
 
 export {
     css,
@@ -69,5 +74,11 @@ export {
     contact,
     soundon,
     soundoff,
+    code,
+    chart,
+    head,
+    thunder,
+    chess,
+    message
    
 }

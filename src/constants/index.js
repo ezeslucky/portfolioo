@@ -29,7 +29,13 @@ import {
     kubernetes,
     aws,
     prisma,
-    figma
+    figma,
+    code,
+    chart,
+    head,
+    thunder,
+    chess,
+    message
 } from "../assets/icons";
 
 export const skills = [
@@ -100,12 +106,12 @@ export const skills = [
     },
     {
         imageUrl: postman,
-        name: "Docker",
+        name: "Postman",
         type: "Infrastructure",
     },
     {
         imageUrl: postgresql,
-        name: "Docker",
+        name: "PostgreSQL",
         type: "Infrastructure",
     },
     {
@@ -116,17 +122,17 @@ export const skills = [
     },
     {
         imageUrl: aws,
-        name: "Docker",
+        name: "Aws",
         type: "Infrastructure",
     },
     {
         imageUrl: prisma,
-        name: "Docker",
+        name: "Prisma",
         type: "Infrastructure",
     },
     {
         imageUrl: figma,
-        name: "Docker",
+        name: "Figma",
         type: "Infrastructure",
     },
     {
@@ -196,45 +202,59 @@ export const socialLinks = [
 
 export const projects = [
     {
-        iconUrl: pricewise,
+        iconUrl: code,
         theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
+        name: 'Code-Editor',
+        description: 'Developed an Online IDE with multi-language support .  Customizable experience with themes.  Smart output handling with Success & Error states  ',
+        link: 'https://github.com/ezeslucky/Editor.git',
     },
     {
-        iconUrl: threads,
+        iconUrl: chart,
         theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
+        name: 'ChatGPT ',
+        description: ' Access a curated selection of cutting-edge AI tools in one place.Intuitive and visually appealing interface for seamless interactions.Instantly harness the power of AI without any delays or complications',
+        link: 'https://github.com/ezeslucky/Chart-GPT.git',
     },
     {
-        iconUrl: car,
+        iconUrl: head,
         theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
+        name: 'Chrome Extension ',
+        description: 'A Chrome extension that adds ChatGPT to every text box on the internet! Use it to write tweets, revise emails, fix coding bugs, or whatever else you need, all without leaving the site you are on. Includes a plugin system for greater control over ChatGPT behavior and ability to interact with 3rd party APIs.',
+        link: 'https://github.com/ezeslucky/ChatGpt-Extension.git',
     },
     {
-        iconUrl: snapgram,
+        iconUrl: thunder,
         theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
+        name: 'Bolt',
+        description: 'Built a Bolt (oTToDev) allows you to choose the LLM that you use for each prompt! Currently, you can use OpenAI, Anthropic, Ollama, OpenRouter, Gemini, LMStudio, Mistral, xAI, HuggingFace, DeepSeek, or Groq models - and it is easily extended to use any other model supported by the Vercel AI SDK! See the instructions below for running this locally and extending it to include more models.',
+        link: 'https://github.com/ezeslucky/AI-Code-Editor.git',
     },
     {
         iconUrl: estate,
         theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
+        name: 'Game Animation',
+        description: 'Dynamic animations triggered by scrolling for a more engaging user experience.Unique geometric transitions using CSS clip-paths to create visually stunning effects.Polished interfaces with buttery-smooth interactions for an intuitive user journey.Interactive 3D transformations that respond to user interactions for a modern feel.',
+        link: 'https://github.com/ezeslucky/Gaming-Animated.git',
     },
     {
-        iconUrl: summiz,
+        iconUrl: chess,
         theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
-    }
+        name: 'Chess Game',
+        description: 'Designed and developed an interactive chess game with full implementation of chess rules(e.g., castling, en passant, pawn promotion) .Built a responsive user interface for smooth gameplay across devices.Integrated a multiplayer feature using WebSockets, enabling real-time gameplay between users.',
+        link: 'https://github.com/ezeslucky/chess-game.git',
+    },
+    {
+        iconUrl: figma,
+        theme: 'btn-back-red',
+        name: 'Figma',
+        description: 'Allows multiple users to collaborate simultaneously by showing individual cursors, enabling real-time chat, and reactions for interactive communication.Displays a list of currently active users in the collaborative environment, providing visibility into who is currently engaged.Allows users to adjust the properties of design elements, offering flexibility in customizing and fine-tuning visual components.',
+        link: 'https://github.com/ezeslucky/Figma-Clone.git',
+    },
+    {
+        iconUrl: message,
+        theme: 'btn-back-green',
+        name: 'Many-Chart ',
+        description: ' Implemented real-time data updates and filtering features to provide users with dynamic insights Optimized chart rendering for performance, improving load times by [specific metric, if applicable].Styled charts to align with UI/UX design principles, ensuring responsiveness across devices.',
+        link: 'https://github.com/ezeslucky/Many-Chart.git',
+    },
 ];
